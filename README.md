@@ -24,5 +24,6 @@ un_idx_train1,un_idx_valid1,un_idx_train2,un_idx_valid2;
 [Usage]:  maincode.py
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
 If you use this code for your research, please cite our papers:
 Hu M, Wu C, Zhang L, et al. Hyperspectral anomaly change detection based on autoencoder[J]. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2021, 14: 3750-3762.

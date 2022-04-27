@@ -1,9 +1,11 @@
 # ACDA
-Pytorch code of "Hyperspectral Anomaly Change Detection Based on Auto-encoder"
-try "maincode.py"
 
 This is a code of the paper "Hyperspectral anomaly change detection based on autoencoder" implemented on PyTorch.
 Pytorch is needed for running this code.
+
+Paper is available on https://ieeexplore.ieee.org/abstract/document/9380336
+
+My personal google web：https://scholar.google.com.hk/citations?hl=zh-CN&user=jxyAHdkAAAAJ
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 [Dataset]: "Viareggio 2013" with de-striping, noise-whitening and spectrally binning

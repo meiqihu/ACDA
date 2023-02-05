@@ -1,31 +1,48 @@
-# ACDA
+# Hyperspectral anomaly change detection based on autoencoder
+Pytorch implementation of JSTARS paper "Hyperspectral anomaly change detection based on autoencoder".
+![image](https://github.com/meiqihu/ACDA/blob/main/Figure_ACDA.png)
+# Paper
+[Hyperspectral anomaly change detection based on autoencoder](https://ieeexplore.ieee.org/document/9380336)
 
-This is a code of the paper "Hyperspectral anomaly change detection based on autoencoder" implemented on PyTorch.
-Pytorch is needed for running this code.
+Please cite our paper if you find it useful for your research.
 
-Paper is available on https://ieeexplore.ieee.org/abstract/document/9380336
+>@ARTICLE{9380336,
+  author={Hu, Meiqi and Wu, Chen and Zhang, Liangpei and Du, Bo},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  title={Hyperspectral Anomaly Change Detection Based on Autoencoder}, 
+  year={2021},
+  volume={14},
+  number={},
+  pages={3750-3762},
+  doi={10.1109/JSTARS.2021.3066508}}
 
-My personal google web：https://scholar.google.com.hk/citations?hl=zh-CN&user=jxyAHdkAAAAJ
+# Installation
+Install Pytorch 1.10.2 with Python 3.6
+# Dataset
+Download the [dataset of Viareggio 2013](https://pan.baidu.com/s/1sRmdjsT-xl6DQJeoPIBNYA),passcode提取密码：qdqf
 
--=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 [Dataset]: "Viareggio 2013" with de-striping, noise-whitening and spectrally binning
-1.   img_data.mat:    
-img_1(D1F12H1);   img_2(D1F12H2);    img_3(D2F22H2)
 
-链接：https://pan.baidu.com/s/1sRmdjsT-xl6DQJeoPIBNYA 
-提取码：qdqf
+>img_data.mat:  
+
+>>img_1(D1F12H1);   img_2(D1F12H2);    img_3(D2F22H2)
+
+>pretrain_samples:     
+
+>>un_idx_train1,un_idx_valid1,un_idx_train2,un_idx_valid2;  [acquired from the pre-detection result of USFA, Wu C, Zhang L, Du B. Hyperspectral anomaly change detection with slow feature analysis[J]. Neurocomputing, 2015, 151: 175-187.]
+
+>groundtruth_samples:  
+
+>>un_idx_train1,un_idx_valid1,un_idx_train2,un_idx_valid2;
+
+>random_samples:     un_idx_train1,un_idx_valid1,un_idx_train2,un_idx_valid2;
+# Usage
+maincode.py
+
+# More
+[My personal google web](https://scholar.google.com.hk/citations?hl=zh-CN&user=jxyAHdkAAAAJ)
 
 
-2.   pretrain_samples:     
-un_idx_train1,un_idx_valid1,un_idx_train2,un_idx_valid2;  [acquired from the pre-detection result of USFA, Wu C, Zhang L, Du B. Hyperspectral anomaly change detection with slow feature analysis[J]. Neurocomputing, 2015, 151: 175-187.]
-3.  groundtruth_samples:     
-un_idx_train1,un_idx_valid1,un_idx_train2,un_idx_valid2;
-4.   random_samples:     un_idx_train1,un_idx_valid1,un_idx_train2,un_idx_valid2;
 
--=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-[Usage]:  maincode.py
 
--=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-If you use this code for your research, please cite our papers:
-Hu M, Wu C, Zhang L, et al. Hyperspectral anomaly change detection based on autoencoder[J]. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2021, 14: 3750-3762.

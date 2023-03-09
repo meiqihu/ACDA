@@ -19,7 +19,9 @@ Please cite our paper if you find it useful for your research.
 # Installation
 Install Pytorch 1.10.2 with Python 3.6
 # Dataset
-Download the [dataset of Viareggio 2013](https://pan.baidu.com/s/1BZzvBTVJLgqQn5_xBHN8Xg),passcode提取密码：0fkn
+Download the [dataset of Viareggio 2013]
+链接：https://pan.baidu.com/s/1x_M0nRqV-jmugIB6MltmXQ 
+提取码：ogum
 
 [Dataset]: "Viareggio 2013" with de-striping, noise-whitening and spectrally binning
 

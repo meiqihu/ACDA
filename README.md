@@ -42,7 +42,9 @@ Download the [dataset of Viareggio 2013]
 maincode.py
 
 # More
-[My personal google web](https://scholar.google.com.hk/citations?hl=zh-CN&user=jxyAHdkAAAAJ)
+🌷[Homepage](https://meiqihu.github.io/)🌷  </br>
+🔴[Google web](https://scholar.google.com.hk/citations?hl=zh-CN&user=jxyAHdkAAAAJ) 🔴 </br>
+🌏[ResearchGate](https://www.researchgate.net/profile/Humeiqi-humeiqi) 🌍
 
 
 
